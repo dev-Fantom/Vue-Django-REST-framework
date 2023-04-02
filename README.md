@@ -20,26 +20,16 @@ requirements.txtからライブラリをインストール
 
 
 	pip install -r requirements.txt
-
-Specify API key in .env
-
-.envにAPIキーを指定
-
-    touch .env
-
-	DEEPL_API_KEY=YOURAPIKEY
 	
 ## Sample usage / 実行方法
 
-	python translate_deepl.py
+	python manage.py runserver
 
-## Result / 結果
-"DeepLの翻訳技術を使って日本語を英語に翻訳します。"
+    npm run serve
 
-↓ 
+## Build / ビルド
 
-"Translate Japanese into English using the translation technology at DeepL."
-
+	npm run build
 
 ## Author / 作成者
 
